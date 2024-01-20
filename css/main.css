@@ -52,7 +52,7 @@ body {
     /* background: #B3D0D3; */
     padding-top: 100px;
 
-    min-width: 100vh;
+    min-width: 100vw;
     display: grid;
     place-items: center;
     align-items: center;
@@ -221,19 +221,19 @@ footer small {
 
 
 /* /////////////////////////////////////////////////////////////////////////// */
+
 @media (max-width: 785px) {
 
-    body {
-        padding-top: 0px;
-        max-width: 100%;
+    body{
+        padding-top: 0;
         background-image: url(../img/bg-relaxar.jpg);
         background-repeat: no-repeat;
         background-position: fixed;
-        background-size: 110vh 130vw;
+        background-size:120%;
     }
 
     img {
-        width: 35%;
+        width: 50%;
         border-radius: 50%;
         padding-block: 1em;
         position: relative;
@@ -264,7 +264,7 @@ footer small {
     #text-h3 {
         color: var(--Input);
         padding-block: 0px;
-        font-size: 38px;
+        font-size: 28px;
         font-weight: 500;
         align-items: center;
         justify-content: space-between;
@@ -276,7 +276,7 @@ footer small {
     #text-h6 {
         color: var(--Input);
         padding-block: 0px;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 100;
         align-items: center;
         justify-content: space-between;
@@ -286,8 +286,8 @@ footer small {
 
     #input {
         width: 100%;
-        height: 55px;
-        font-size: 26px;
+        height: 45px;
+        font-size: 15px;
         font-weight: 200;
         font-family: "Poppins", sans-serif;
         z-index: 1;
@@ -298,7 +298,7 @@ footer small {
     ul li {
         height: 100%;
         align-items: center;
-        font-size: 26px;
+        font-size: 15px;
         justify-content: space-around;
 
     }
