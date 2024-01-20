@@ -230,7 +230,7 @@ footer small {
         background-repeat: no-repeat;
         background-position: fixed;
         background-size:120%;
-        overflow: hidden;
+       
     }
 
     img {
@@ -249,6 +249,7 @@ footer small {
         background: none;
         box-shadow: none;
         z-index: 1;
+        overflow: hidden;
     }
 
 
@@ -260,6 +261,7 @@ footer small {
         padding-inline: 18px;
         margin-left: 0;
         z-index: 1;
+        overflow: hidden;
     }
 
     #text-h3 {
